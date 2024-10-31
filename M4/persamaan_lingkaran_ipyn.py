@@ -16,7 +16,7 @@ plt.plot(x, y, label=f'Lingkaran dengan r={r}') # Menggambar lingkaran berdasark
 plt.xlabel('x') # Memberi label pada sumbu x
 plt.ylabel('y') # Memberi label pada sumbu y
 plt.axhline(0, color='black', linewidth=0.5) # Membuat garis horizontal di sumbu y = 0
-plt.axvline(0, color='black', linewidth=0.5) # Membuat garis horizontal di sumbu x = 0
+plt.axvline(0, color='black', linewidth=0.5) # Membuat garis vertikal di sumbu x = 0
 plt.scatter(a, b, color='red', label='Pusat Lingkaran') # Menandai titik pusat lingkaran pada koordinat (a, b)
 
 plt.gca().set_aspect('equal', adjustable='box') # agar sumbu x dan y memiliki skala yang sama
