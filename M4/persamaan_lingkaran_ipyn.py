@@ -7,8 +7,8 @@ a, b = 10, 6  # titik pusat lingkaran (a, b)
 
 # Menghasilkan koordinat lingkaran
 theta = np.linspace(0, 2 * np.pi, 100)  # Membuat 100 nilai theta dari 0 hingga 2π
-x = a + r * np.cos(theta) # Menghitung koordinat x lingkaran
-y = b + r * np.sin(theta) # Menghitung koordinat y lingkaran
+x = a + r * np.cos(theta) # Menghitung titik-titik x untuk membentuk lingkaran
+y = b + r * np.sin(theta) # Menghitung titik-titik y untuk membentuk lingkaran
 
 # Plot lingkaran
 plt.figure(figsize=(6,6))   # Membuat grafik dengan ukuran 6x6
